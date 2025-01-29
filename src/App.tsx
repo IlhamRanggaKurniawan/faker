@@ -61,7 +61,7 @@ const App = () => {
           </div>
         </div>
       </BackgroundBeamsWithCollision>
-      <div className='bg-neutral-950 h-full py-12 px-4 space-y-6 sm:px-8 lg:space-y-16'>
+      <div className='bg-neutral-950 h-full py-12 px-4 space-y-6 sm:px-8 lg:space-y-16 scroll-smooth'>
         <h2 className='text-4xl text-white font-bold' id='get-started'>Get Started</h2>
         <div className='space-y-12 xl:flex xl:gap-12'>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-2'>
