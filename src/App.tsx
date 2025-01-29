@@ -1,4 +1,3 @@
-import React from 'react'
 import { Icon } from '@iconify/react'
 import { BackgroundBeamsWithCollision } from './components/background-beams-with-collision'
 import { CardSpotlight } from './components/card-spotlight'
@@ -37,7 +36,7 @@ const App = () => {
         <div className='w-full h-full flex flex-col items-center justify-center max-w-6xl px-6 py-12 gap-12'>
           <div>
             <h1 className="text-4xl relative z-20 sm:text-6xl lg:text-8xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
-              <span className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4">Fakerjs</span>
+              <span className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4">fukerjs</span>
               - The Most Honest Fake Data Generator
             </h1>
           </div>
@@ -78,14 +77,14 @@ const App = () => {
               <h3 className="text-2xl text-white font-bold">Installation</h3>
               <div className="prose prose-invert max-w-none">
                 <pre className="w-full rounded-xl border border-zinc-800 p-6 bg-black">
-                  <code className='text-white'>npm install fakerjs</code>
+                  <code className='text-white'>npm install fukerjs</code>
                 </pre>
               </div>
               <h3 className="text-2xl text-white font-bold">Usage</h3>
               <div className="prose prose-invert max-w-none">
                 <pre className="w-full rounded-xl border border-zinc-800 p-6 overflow-x-scroll bg-black md:overflow-x-hidden ">
                   <code className='text-white'>
-                    {`import faker from 'fakerjs'
+                    {`import faker from 'fukerjs'
 
 console.log(faker.generateMiddleFinger());  // 🖕🏿
 console.log(faker.generateMiddleFinger(1));  // 🖕
