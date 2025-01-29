@@ -87,7 +87,7 @@ const App = () => {
                     {`import faker from 'fukerjs'
 
 console.log(faker.generateMiddleFinger());  // 🖕🏿
-console.log(faker.generateMiddleFinger(1));  // 🖕
+console.log(faker.generateMiddleFinger({skinTone: 1}));  // 🖕
 console.log(faker.isMiddleFinger("🖕"));  // true`}
                   </code>
                 </pre>
