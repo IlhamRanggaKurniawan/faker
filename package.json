@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "pkg:build": "esbuild package/* --outdir=out --minify"
+    "pkg:build": "esbuild package/* --outdir=out --minify && tsc --emitDeclarationOnly --project tsconfig.pkg.json"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
