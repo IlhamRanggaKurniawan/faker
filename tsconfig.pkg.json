@@ -7,7 +7,7 @@
         "skipLibCheck": true,
         "moduleResolution": "node",
         "declaration": true,
-        "declarationDir": "./out/types",
+        "declarationDir": "./out",
         "noImplicitAny": true
     },
     "include": ["package/**/*.ts"]

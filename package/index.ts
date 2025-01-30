@@ -1,5 +1,5 @@
 class Faker {
-    generateMiddleFinger({ skinTone }: { skinTone?: 1 | 2 | 3 | 4 | 5 | 6 }): string {
+    generateMiddleFinger(skinTone?: 1 | 2 | 3 | 4 | 5 | 6 ): string {
         const skinTones = [
             "🖕",
             "🖕🏻",
@@ -8,8 +8,8 @@ class Faker {
             "🖕🏾",
             "🖕🏿"
         ]
-
-        return skinTones[skinTone ? skinTone - 1 : 5]
+        const index = skinTone ? skinTone - 1 : 5;
+        return skinTones[index]
     }
 
     isMiddleFinger(emoji: string): boolean {
