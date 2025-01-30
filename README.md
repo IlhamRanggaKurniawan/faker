@@ -32,8 +32,8 @@ import faker from "fukerjs";
 console.log(faker.generateMiddleFinger()); // 🖕🏿
 
 // Generate a middle finger emoji with a specific skin tone
-console.log(faker.generateMiddleFinger({ skinTone: 1 })); // 🖕🏻
-console.log(faker.generateMiddleFinger({ skinTone: 3 })); // 🖕🏽
+console.log(faker.generateMiddleFinger({ skinTone: 1 })); // 🖕
+console.log(faker.generateMiddleFinger({ skinTone: 3 })); // 🖕🏼
 
 // Check if a string contains a middle finger emoji
 console.log(faker.isMiddleFinger("🖕")); // true
